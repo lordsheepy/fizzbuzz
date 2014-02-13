@@ -4,7 +4,7 @@ corresponding to divisor and a value equating the desired string"""
 
 def fizzbuzz(n, divisor_dict):
     result = ''
-    for k, v in sorted(divisor_dict.items()):  # create iterable from user dict
+    for k, v in sorted(divisor_dict.items()):
         if n % k == 0:
             result.append(v)
     if result == '':
