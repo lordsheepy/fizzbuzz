@@ -1,4 +1,4 @@
-#! usr/bin/env/python
+#! usr/bin/env python
 def fizzbuzz(n, divisor_dict):
 
     """Creating a user extensible fizzbuzz in which user provide a dict with a
