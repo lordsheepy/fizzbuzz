@@ -10,6 +10,6 @@ def fizzbuzz(n, divisor_dict):
             result += v
 
     if result == '':
-        return n
+        return str(n)
 
     return result
